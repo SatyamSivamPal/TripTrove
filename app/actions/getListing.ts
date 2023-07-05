@@ -70,7 +70,7 @@ export default async function getListing(
         }
 
         const listings = await prisma.listing.findMany({
-            where:query,
+            where: query,
             orderBy:{
                 createdAt:'desc'
             }

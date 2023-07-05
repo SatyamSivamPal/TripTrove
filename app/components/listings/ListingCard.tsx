@@ -2,7 +2,6 @@
 
 import useCountries from "@/app/Hooks/useCountries";
 import { SafeListing, SafeUser, safeResevations } from "@/app/types";
-import { Listing, Reservation, User } from "@prisma/client";
 import { useRouter } from "next/navigation";
 import React, { useCallback, useMemo } from "react";
 import {format} from 'date-fns'
